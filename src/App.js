@@ -5,6 +5,7 @@ import {useSelector} from "react-redux";
 
 function App() {
   const cartVisible = useSelector(state => state.uiSlice.isVisible);
+  // fetch("https://redux-shopping-page-d6ecb-default-rtdb.asia-southeast1.firebasedatabase.app/")
   return (
     <Layout>
       {
